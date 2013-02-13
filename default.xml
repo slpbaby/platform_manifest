@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
+  <remote  name="jameson"
+           fetch="git://github.com/jamesonwilliams" />
   <remote  name="aosp"
-           fetch=".."
+           fetch="https://android.googlesource.com/"
            review="https://android-review.googlesource.com/" />
   <default revision="refs/tags/android-4.2.2_r1"
            remote="aosp"
@@ -28,6 +30,7 @@
   <project path="device/generic/x86" name="device/generic/x86" groups="pdk" />
   <project path="device/google/accessory/arduino" name="device/google/accessory/arduino" groups="device" />
   <project path="device/google/accessory/demokit" name="device/google/accessory/demokit" groups="device" />
+  <project path="device/lge/mako" name="device_lge_mako" remote="jameson" groups="device" />
   <project path="device/sample" name="device/sample" groups="pdk" />
   <project path="docs/source.android.com" name="platform/docs/source.android.com" />
   <project path="external/aac" name="platform/external/aac" groups="pdk" />
@@ -216,6 +219,7 @@
   <project path="hardware/libhardware" name="platform/hardware/libhardware" groups="pdk" />
   <project path="hardware/libhardware_legacy" name="platform/hardware/libhardware_legacy" groups="pdk" />
   <project path="hardware/ril" name="platform/hardware/ril" groups="pdk" />
+  <project path="kernel/lge/mako" name="kernel_msm" remote="jameson" />
   <project path="libcore" name="platform/libcore" />
   <project path="libnativehelper" name="platform/libnativehelper" groups="pdk-java" />
   <project path="ndk" name="platform/ndk" />
@@ -313,5 +317,6 @@
   <project path="system/vold" name="platform/system/vold" groups="pdk" />
   <project path="tools/build" name="platform/tools/build" groups="notdefault,tools" />
   <project path="tools/motodev" name="platform/tools/motodev" groups="notdefault,motodev" />
+  <project path="vendor/lge/mako" name="vendor_lge_mako" remote="jameson" />
 
 </manifest>
