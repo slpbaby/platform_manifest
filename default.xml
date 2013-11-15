@@ -433,4 +433,5 @@
   <project path="vendor/broadcom/hammerhead" name="vendor_broadcom_hammerhead" remote="jameson" />
   <project path="vendor/lge/hammerhead" name="vendor_lge_hammerhead" remote="jameson" />
   <project path="vendor/qcom/hammerhead" name="vendor_qcom_hammerhead" remote="jameson" />
+  <project path="vendor/google/gapps" name="vendor_google_gapps" remote="jameson" />
 </manifest>
