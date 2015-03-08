@@ -2,7 +2,7 @@
 <manifest>
 
   <remote  name="jameson"
-           fetch="git://github.com/jamesonwilliams" />
+           fetch="https://github.com/jamesonwilliams" />
   <remote  name="aosp"
            fetch="https://android.googlesource.com/" />
   <default revision="refs/tags/android-4.4_r1.1"
